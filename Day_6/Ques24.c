@@ -10,7 +10,35 @@ int main(){
     int org_x = x;
     int org_n = n;
 
-    while(n>0){
+    while(n>0){#include<stdio.h>
+int rem, sum=0, org;
+int isArmstrong(int num){
+    org=num;
+    if(num<0) return 0;
+    while(num>0){
+        rem = num%10;
+        sum = sum + rem*rem*rem;
+        num= num/10;
+    }
+    if(org==num){
+        return 1;
+    }
+    else{
+        return 0;
+    }
+} 
+int main(){
+    int x;
+    printf("Enter the no.: ");
+    scanf("%d", &x);
+    if(isArmstrong(x)){
+        printf("%d is Armstrong.", x);
+    }
+    else{
+        printf("%d is not Armstrong.", x);
+    }
+    return 0;
+}
         //if n is odd
         if(n%2==1){
             result = result*x;
