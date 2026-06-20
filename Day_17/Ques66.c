@@ -1,3 +1,4 @@
+//Union of arrays
 #include<stdio.h>
 int main(){
     int arr1[20], arr2[20], uni_arr[50], n1, n2 ,k=0;
@@ -33,7 +34,7 @@ int main(){
     }
     printf("The union array is: ");
     for(int i=0; i<k; i++){
-        printf("%d", uni_arr[i]);
+        printf("%d ", uni_arr[i]);
     }
     return 0;
 
