@@ -1,4 +1,4 @@
-//binary sort
+//bubble sort
 #include<stdio.h>
 int main(){
     int n, temp, arr[20];

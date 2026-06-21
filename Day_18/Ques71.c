@@ -30,12 +30,11 @@ int main(){
         else{
             end = mid-1;
         }
-        if(found ==0){
-            printf("%d is not found. ");
-
-        }
-    
     }
+    if(found ==0){
+        printf("%d is not found.", key);
+    }
+    
     return 0;
 }
 
