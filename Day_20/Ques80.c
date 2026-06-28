@@ -11,7 +11,7 @@ int main(){
     for(int i=0; i<r; i++){
         for(int j=0; j<c; j++){
             printf("A[%d][%d]: ", i, j);
-            scanf("%d", &a[i][jj]);
+            scanf("%d", &a[i][j]);
         }
     }
 
