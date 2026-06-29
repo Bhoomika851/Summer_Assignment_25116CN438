@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int lenA=0, lenB=0, flag=0;
+    int lenA=0, lenB=0, flag=1;
     char a[200], b[200];
     
     //input A and find length of a
